@@ -1,7 +1,7 @@
 -- Script home: https://github.com/ZreXoc/mpv-loopuntil
 -- the video shorter than {minDuriation} will be looped.
 -- e.g. if minDuriation=50 and the length of the video is 15s, it will be looped for 3 times, that's 15*(1+3)=60s.
--- add script-opts=loopuntil-minDuriation=<time> to your mpv.conf to change minDuriation.
+-- add script-opts=loop-until-minDuriation=<time> to your mpv.conf to change minDuriation.
 
 require 'mp.options'
 
